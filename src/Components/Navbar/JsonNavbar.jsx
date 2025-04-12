@@ -28,10 +28,10 @@ const JsonNavbar = () => {
 
     const [open, setOpen] = useState(false);
 
-    const links = navbar.map(navbardata => <li key={navbardata.id}><a href={navbardata.link}>{navbardata.name}</a></li>);
+    const links = navbar.map(navbardata => <li className='hover:bg-amber-400' key={navbardata.id}><a href={navbardata.link}>{navbardata.name}</a></li>);
 
     return (
-        <nav className='flex justify-between mx-4 mt-2'>
+        <nav className='flex justify-between items-center mx-4 mt-4 p-1 shadow'>
 
             <span className='flex' onClick={() => setOpen(!open)}>
 
@@ -40,7 +40,7 @@ const JsonNavbar = () => {
                     <Menu className='md:hidden'></Menu>
                 }
 
-                <ul className='md:hidden'>
+                <ul className={`md:hidden absolute duration-1000 ${open ? 'top-12' : '-top-40'} bg-amber-200 p-1`}>
                     {
                         links
                     }

@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": "$19/month",
+      "best_for": "Beginners & casual gym-goers",
+      "features": [
+        "Access to gym equipment",
+        "Locker room & showers",
+        "One trainer consultation",
+        "Gym hours: 9 AM – 6 PM",
+        "Access to mobile app for workout logging",
+        "Fitness tips via email"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pro",
+      "price": "$39/month",
+      "best_for": "Regular members who want more support & group classes",
+      "popular" : true,
+      "features": [
+        "Everything in Basic",
+        "Group classes (Yoga, Zumba, HIIT, Spin)",
+        "2 guest passes/month",
+        "Extended hours: 6 AM – 10 PM",
+        "Custom workout & diet plan",
+        "Progress tracking via app",
+        "Discount on supplements (10%)"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Elite",
+      "price": "$69/month",
+      "best_for": "Serious fitness lovers or athletes",
+      "features": [
+        "Everything in Pro",
+        "24/7 gym access",
+        "Monthly 1-on-1 personal training",
+        "Body analysis & health report",
+        "Free gym kit (T-shirt, bottle, towel)",
+        "Priority support",
+        "Free entry to monthly fitness events",
+        "Unlimited group classes",
+        "Reserved locker"
+      ]
+    }
+  ]
+  
