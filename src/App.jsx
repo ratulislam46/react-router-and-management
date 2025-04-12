@@ -12,9 +12,9 @@ function App() {
       <header>
         <Daisynavbar></Daisynavbar>
 
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
 
-        {/* <JsonNavbar></JsonNavbar> */}
+        <JsonNavbar></JsonNavbar>
 
       </header>
 
