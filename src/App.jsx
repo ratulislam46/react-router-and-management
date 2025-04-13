@@ -6,6 +6,7 @@ import JsonNavbar from './Components/Navbar/JsonNavbar'
 import Navbar from './Components/Navbar/Navbar'
 import PricingOptions from './Components/PricingOptions.jsx/PricingOptions'
 import DaisyCard from './Components/DaisyCard/DaisyCard'
+import Rechart from './Components/Rechart/Rechart'
 
 
 const pricingPromise = fetch('PricingData.json').then(res => res.json());
@@ -27,6 +28,8 @@ function App() {
         <Suspense fallback={<span className="loading loading-dots loading-lg"></span>}>
           <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
         </Suspense>
+
+        <Rechart></Rechart>
 
       </main>
 
