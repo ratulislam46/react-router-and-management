@@ -1,0 +1,94 @@
+[
+    {
+        "rollNo": 1,
+        "name": "Alice Ahmed",
+        "mark": {
+            "english": 85,
+            "math": 90,
+            "science": 88,
+            "computer": 87
+        }
+    },
+    {
+        "rollNo": 2,
+        "name": "Bilal Khan",
+        "mark": {
+            "english": 78,
+            "math": 80,
+            "science": 75,
+            "computer": 74
+        }
+    },
+    {                     
+        "rollNo": 3,
+        "name": "Clara Roy",
+        "mark": {
+            "english": 92,
+            "math": 95,
+            "science": 94,
+            "computer": 91
+        }
+    },
+    {
+        "rollNo": 4,
+        "name": "Danish Alam",
+        "mark": {
+            "english": 60,
+            "math": 70,
+            "science": 65,
+            "computer": 60
+        }
+    },
+    {
+        "rollNo": 5,
+        "name": "Eliza Chowdhury",
+        "mark": {
+            "english": 88,
+            "math": 87,
+            "science": 90,
+            "computer": 85
+        }
+    },
+    {
+        "rollNo": 6,
+        "name": "Fahim Rahman",
+        "mark": {
+            "english": 55,
+            "math": 60,
+            "science": 58,
+            "computer": 50
+        }
+    },
+    {
+        "rollNo": 7,
+        "name": "Gulshan Nahar",
+        "mark": {
+            "english": 75,
+            "math": 72,
+            "science": 70,
+            "computer": 78
+        }
+    },
+    {
+        "rollNo": 8,
+        "name": "Hasan Uddin",
+        "mark": {
+            "english": 98,
+            "math": 99,
+            "science": 97,
+            "computer": 99
+        }
+    },
+    {
+        "rollNo": 9,
+        "name": "Ishita Das",
+        "mark": {
+            "english": 82,
+            "math": 85,
+            "science": 80,
+            "computer": 80
+        }
+    }
+]
+  
+  
